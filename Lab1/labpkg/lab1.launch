@@ -1,0 +1,14 @@
+<launch>
+	<node
+	pkg = "labpkg"
+	type = "sendtime"
+	name = "sendtime"
+	output = "screen"
+	/>
+	<node
+	pkg = "labpkg"
+	type ="gettime"
+	name = "gettime"
+	output = "screen"
+	/>
+</launch>
